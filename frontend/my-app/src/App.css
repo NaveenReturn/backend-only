@@ -1,0 +1,156 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+/* header-footer-style */
+.heafer-footercolor{
+   width:100%;
+   height:10px;
+   background-color: orange;
+}
+/* user active */
+.active-user{
+   position:fixed;
+   bottom:70px;
+   right:90px;
+   padding:4px;;
+}
+.active-color{
+   width:18px;
+   height:18px;
+   /* background-color: red; */
+   border-radius: 50%;
+   /* padding: 5px; */
+}
+.form-border{
+   border-radius: 8px;
+}
+.user_form{
+   width: 100%;
+   height: 88vh;
+   background:linear-gradient(to right,#0000FF,#fc466b);
+   /* background:#ccc; */
+}
+.user_form form{
+   border-bottom: 2px solid white;
+   border-right: 1px solid white;
+   box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+.register-avatar{
+   width:65px;
+   height: 65px;
+}
+.register-avatar img{
+   width:100%;
+   height: 100%;
+   border: 1px solid #ccc;
+   border-radius: 50%;
+}
+/* profile section */
+.main-profile{
+   background-color: #E8E8E8;
+}
+.top-banner{
+   width:100%;
+   height: 30vh;
+  background-color: white;
+}
+.top-banner img{
+   width:100%;
+   height: 100%;
+}
+.bg-banner{
+   position: relative;
+}
+.bg-banner .profile{
+   width:147px;
+   height:147px;
+   background-color: #f2eeef;
+   position: absolute;
+   bottom:-30px;
+   left:20px;
+   padding: 3px;
+   border-radius: 50%;
+}
+.bg-banner .profile img{
+   width: 100%;
+   height: 100%;
+   border-radius: 50%;
+}
+.main-profile .details-list{
+   background-color: white;
+}
+.main-profile .details-container{
+   display: flex;
+   align-items: center;
+}
+.main-profile .details-list-left{
+   width:40%;
+}
+.main-profile .details-right{
+   width:60%;
+}
+.main-profile .table-course{
+   font-family: sans-serif;
+   text-align: center;
+}
+.main-profile .table-course{
+   background-color: white;
+}
+.attend{
+   background-color: white;
+}
+/* popup messsage */
+.update-banner-profile{
+   display: flex;
+   align-items: center;
+}
+.profile-up{
+   width:50%;
+}
+.banner-up{
+   width:50%;
+}
+.update-banner-profile .profile-image{
+   width:130px;
+   height:130px;
+   border-radius:50%;
+}
+.update-banner-profile .profile-image img{
+   width:100%;
+   height:100%;
+   border-radius:50%;
+   border:2px solid red;
+}
+.update-banner-profile .banner-up .banner-image{
+    width:227px;
+    height:120px;
+    border:2px solid red;
+}
+.update-banner-profile .banner-up .banner-image img{
+   width:100%;
+   height:100%;
+}
+/* home page style */
+.geekz-container{
+   width:100%;
+   height:80vh;
+   background-color:#0070FF;
+   color: #ffff;
+   display: flex;
+   justify-content:space-around;
+   align-items: center;
+}
+table{
+   padding:10px;
+   width:100%;
+}
+table tr{
+   border: 1px solid #000;
+}
+table tr th,td{
+    border: 1px solid #000;
+    text-align: center;
+}
